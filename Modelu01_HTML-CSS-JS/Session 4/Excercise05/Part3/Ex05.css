@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.text1{
+    color:blue;
+    margin:10px;
+}
+.text2{
+    color:red;
+    width:650px;
+    margin:10px;
+}
+.text3{
+    width:650px;
+    margin:10px;
+    padding:5px;
+    background-color: antiquewhite;
+    border-left:5px solid orange;
+}
+.textorange{
+    color:orange;
+}
+.text{
+    line-height: 1.5;
+    font-size: 15px;
+}

@@ -1,0 +1,13 @@
+.button{
+    background-color: rgb(251, 61, 61);
+    width:300px;
+    height:300px;
+    margin:50px;
+    font-size: 30px;
+    
+}
+
+.button:hover{
+    transform: rotate(45deg);
+    transition:1s;
+}

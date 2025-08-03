@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.news-card {
+  width: 350px;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.image-container {
+  position: relative;
+}
+
+/* kéo ảnh về kích thước khung */
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.views {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7); /* nền đen mờ */
+  color: white;
+  padding: 8px 12px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+.eye-icon {
+  margin-right: 8px;
+}
+
+.news-title {
+  padding: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #222;
+  line-height: 1.4;
+}

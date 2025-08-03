@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+  margin-top:20px;
+}
+
+.card {
+  width: 350px;
+  height: 450px;
+  background-color: white;
+  border-radius: 16px;
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-content {
+  padding: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5); /* Nền mờ cho nội dung */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.explore-btn {
+  padding: 10px 20px;
+  background-color: #c53228;
+  color: white;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.explore-btn:hover {
+  background-color: #a6291f;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  
+    <section>
+    <h1><b>Trang web bán hàng</b></h1>
+    <ul>
+        <li><a href="">Trang chủ</a></li>
+        <li><a href="">Sản phẩm</a></li>
+        <li><a href="">Giới thiệu</a></li>
+        <li><a href="">Liên hệ</a></li>
+    </ul>
+    </section>
+    
+    <section>
+        <h2><b>Thông tin sản phẩm</b></h2>
+      <table border="1">
+       <thead>
+       <tr>
+        <th>Tên sản phẩm</th>
+        <th>Mô tả</th>
+        <th>Giá</th>
+        <th>Số lượng</th>
+       </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Sản phẩm 1</td>
+            <td>Mô tả sản phẩm 1</td>
+            <td>100.000đ</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Sản phẩm 2</td>
+            <td>Mô tả sản phẩm 2</td>
+            <td>200.000đ</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>Sản phẩm 3</td>
+            <td>Mô tả sản phẩm 3</td>
+            <td>300.000đ</td>
+            <td>3</td>
+        </tr>
+    </tbody>   
+    </table>
+    </section>
+
+    <section>
+        <h2><b>Thông tin người dùng</b></h2>
+        <form action="">
+            <label for="tên">Họ và tên:</label>
+            <input 
+            type="text" name="tên"
+            placeholder="Tên đầy đủ"
+            id="Tên" 
+            />
+            <br/><br/>
+            <label for="Email">Email:</label>
+            <input 
+            type="text" name="Email"
+            placeholder="@gmail.com"
+            id="Email"
+            />
+             <br/><br/>
+            <label for="Phone">Phone:</label>
+            <input 
+            type="tel" name="Phone"
+            placeholder="000-00-000"
+            id="Phone"
+            pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+            />
+              <br/><br/>
+            <label for="địa chỉ">Địa chỉ:</label>
+            <input 
+            type="text" name="địa chỉ"
+            placeholder="Địa chỉ"
+            id="địa chỉ" 
+            />
+            <br/><br/>
+            <button>Đặt hàng</button>
+
+            <p>&copy; 2023 Trang web bán hàng</p>
+
+        </form>
+    </section>
+
+
+</body>
+</html>

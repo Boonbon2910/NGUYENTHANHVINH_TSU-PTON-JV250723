@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.textbox{
+      border: 1px solid black;
+      padding: 10px;
+      width: 700px;
+      font-family: Arial, sans-serif;
+      line-height: 1.5;
+      margin:20px;
+    }
+
+
+.blue{
+    color:#5971ca;
+}
+.textbox p:first-child {
+  margin-bottom: 30px;
+}
+

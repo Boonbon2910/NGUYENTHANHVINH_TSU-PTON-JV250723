@@ -1,0 +1,22 @@
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 700px;
+}
+
+.menu li {
+  background-color: #c4c4c4; /* Xám nhạt */
+  color: #fff;               /* Màu chữ trắng */
+  padding: 15px;
+  margin-bottom: 10px;
+  transition: background-color 0.5s; 
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.menu li:hover {
+  background-color: #555; /* Xám đậm khi hover */
+  border-radius: 10px;
+  cursor: pointer;
+}

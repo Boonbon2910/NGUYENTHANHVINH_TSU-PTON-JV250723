@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+}
+
+.menu {
+  width: 200px;
+  background-color: #f0f0f0;
+  margin: 10px;
+  padding-bottom: 200px; /* kéo dài phần nền xuống */
+
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  padding: 10px;
+
+}
+.menu a:hover {
+  background-color: rgb(168, 168, 247);}
+
+.menu a {
+  text-decoration: none; /* xóa gạch dưới */
+}
+
+
+.menu li:first-child {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+}
+
+.content {
+  padding: 20px;
+  flex-grow: 1;
+}
